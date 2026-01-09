@@ -12,9 +12,12 @@ const App: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-slate-900 overflow-x-hidden">
       <header className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-white/10 p-4 flex justify-between items-center">
-        <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center font-bold text-white">M</div>
-          <span className="text-white font-bold tracking-tight">MEDICAL AI</span>
+        <div className="flex items-center space-x-3">
+          <div className="flex items-center">
+            <span className="text-blue-400 italic font-medium tracking-tight mr-2">ASIAN2U</span>
+            <div className="w-6 h-6 bg-blue-600 rounded flex items-center justify-center font-bold text-white text-xs mr-2">M</div>
+            <span className="text-white font-bold tracking-tight">MEDICAL AI</span>
+          </div>
         </div>
         <div className="hidden md:block text-slate-400 text-sm">VA Strategic Sales Proposal | 2026</div>
         <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 rounded-full text-sm font-semibold transition-all">
